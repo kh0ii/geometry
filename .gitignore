@@ -1,0 +1,5 @@
+# figures pdf
+figures/*.pdf 
+
+# temp
+svg-inkscape

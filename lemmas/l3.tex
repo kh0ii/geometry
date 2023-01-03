@@ -1,0 +1,31 @@
+\begin{lemma}
+	Nếu $O$ là tâm đường tròn ngoại tiếp $\triangle ABC$ ta có
+	\begin{align*}
+		\angle OBC = \angle OCB &= 90 \degree - \angle A \\ 
+		\angle OCA = \angle OAC &= 90 \degree - \angle B \\ 
+		\angle OBA = \angle OAB &= 90 \degree - \angle C
+	\end{align*}
+\end{lemma}
+
+\begin{center}
+\includesvg{l3}
+\end{center}
+
+\begin{proof}
+	Đặt
+	\begin{align*}
+		x &= \angle OBC = \angle OCB \\ 
+		y &= \angle OCA = \angle OAC \\ 
+		z &= \angle OBA = \angle OAB 
+	\end{align*}
+	Vậy ta cần chứng minh
+	\[
+		x = 90 \degree - (y + z),\ y = 90 \degree - (z + x),\ z = 90 \degree - (x + y)
+	\]
+	tương đương với $x + y + z = 90 \degree$.
+	Ta có 
+	\[
+		(x + y) + (y + z) + (z + x) = \angle A + \angle B + \angle C = 180 \degree
+	\]
+	vậy $x + y + z = 90 \degree$, ta có điều phải chứng minh.
+\end{proof}

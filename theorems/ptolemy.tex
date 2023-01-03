@@ -1,0 +1,18 @@
+\begin{theorem}[Ptolemy]
+	Cho tứ giác $ABCD$ nội tiếp đường tròn $(O)$. Khi đó ta có: 
+	\[
+		AB.CD + AD.BC = AC.BD
+	\]
+	\begin{center}	
+		\includesvg{ptolemy}
+	\end{center}
+
+	\begin{proof}
+
+		Trên $BD$ lấy $E$ sao cho $\angle DAE = \angle BAC$. Lại có $\angle ADE = \angle ACB$ nên $\triangle ADE \sim \triangle ACB \Rightarrow \frac{AD}{AC} = \frac{DE}{BC} \Rightarrow AD.BC = AC.DE \ (1)$.
+
+		Do $\angle DAE = \angle CAB$ nên $\angle DAC = \angle EAB$ mà $\angle DCA = \angle EBA$ nên $\triangle ABE \sim \triangle ACD \Rightarrow \frac{AB}{BE} = \frac{AC}{CD} \Rightarrow AB.CD = AC.BE \ (2)$
+
+		Từ $(1)$ và $(2) \Rightarrow AD.BC + AB.CD = AC.DE + AC.BE = AC.(DE + BE) = AC.BD$. 
+	\end{proof}
+\end{theorem}

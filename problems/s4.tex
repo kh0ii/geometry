@@ -1,0 +1,17 @@
+\begin{prob}[USAMO 1990/5]
+	Cho tam giác $ABC$ nhọn. Đường tròn đường kính $AB$ cắt đường cao $CC'$ kéo dài tại $M$ và $N$, đường tròn đường kính $AC$ cắt đường cao $BB'$ kéo dài tại $P$ và $Q$. Chứng minh $M, N, P, Q$ đồng viên.
+\end{prob}
+
+\begin{center}
+\includesvg{s4}
+\end{center}
+
+\textbf{Cách 1:}
+$\triangle ABN$ vuông tại $N$ có $NC'$ là đường cao $\Rightarrow AN^2 = AC'.AB$ (Hệ thức lượng trong tam giác vuông). Tương tự ta có $AQ^2 = AB'.AC$, $AM^2 = AC'.AB$, $AP^2 = AB'.AC$.
+
+Mà tứ giác $BC'BC$ nội tiếp nên $AB'.AC = AC'.AB$ suy ra $AN = AM = AP = AQ$. Vậy $M, N, P, Q$ cùng thuộc một đường tròn tâm $A$.
+
+\textbf{Cách 2:}
+Gọi $\omega_1$ là đường tròn đường kính $AB$ và $\omega_2$ là đường tròn đường kính $AC$.
+
+Kẻ đường cao $AA'$. $AA' \perp BC$ nên $A' \in \omega_1,\ A' \in \omega_2$. Có $A$ và $A'$ là hai giao điểm của $\omega_1$ và $\omega_2$ nên đường thẳng $AA'$ là trục đẳng phương của $\omega_1$ và $\omega_2$. Trực tâm $H \in AA'$ nên $HN.HM = HQ.HP$ suy ra tứ giác $MPNQ$ nội tiếp.

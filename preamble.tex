@@ -1,0 +1,65 @@
+%---------------------------
+% Packages
+%---------------------------
+\usepackage[utf8]{vietnam}
+\usepackage{amssymb, amsmath, latexsym, amsfonts, amsthm, mathrsfs, gensymb} % Standard packages that are nice to have.
+\usepackage[inline]{asymptote}
+\usepackage{svg}
+\usepackage{amsrefs} % Allows for easy referencing and citations.
+\usepackage{verbatim} % Needed for \begin{comment} \end{comment}.
+\usepackage[text={6in,9in},centering]{geometry} % Defines the dimensions of the text body.
+\usepackage[doublespacing]{setspace} % Makes the document double spaced.
+
+% The following package makes prettier tables.  We're all about the bling!
+\usepackage{booktabs}
+
+% The units package provides nice, non-stacked fractions and better spacing
+% for units.
+\usepackage{units}
+
+%--------Theorem Environments--------
+\theoremstyle{definition}
+\newtheorem{theorem}{Định lý}
+\newtheorem{cor}[theorem]{Corollary}
+\newtheorem{prop}[theorem]{Proposition}
+\newtheorem{lemma}{Bổ đề}
+\newtheorem{conj}[theorem]{Conjecture}
+\newtheorem{quest}[theorem]{Question}
+\newtheorem{claim}{Claim}
+
+\theoremstyle{definition}
+\newtheorem{defn}[theorem]{Định nghĩa}
+\newtheorem{defns}[theorem]{Definitions}
+\newtheorem{con}[theorem]{Construction}
+\newtheorem{exmp}[theorem]{Example}
+\newtheorem{jk}[theorem]{Joke}
+\newtheorem{exmps}[theorem]{Examples}
+\newtheorem{notn}[theorem]{Notation}
+\newtheorem{notns}[theorem]{Notations}
+\newtheorem{addm}[theorem]{Addendum}
+\newtheorem{prob}{Bài}
+
+\theoremstyle{remark}
+\newtheorem{rem}[theorem]{Remark}
+\newtheorem{ans}[theorem]{Answer}
+\newtheorem{rems}[theorem]{Remarks}
+\newtheorem{warn}[theorem]{Warning}
+\newtheorem{sch}[theorem]{Scholium}
+
+\newcommand{\csvg}[1]{\begin{center} \includesvg{#1} \end{center}}
+\newcommand{\Mod}[1]{\ (\text{mod}\ #1)}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\F}{\mathbb{F}}
+\newcommand{\Z}{\mathbb{Z}}
+\renewcommand{\P}{\mathbb{P}}
+\DeclareMathOperator{\Span}{Span}
+\DeclareMathOperator{\val}{val}
+\DeclareMathOperator{\comp}{comp}
+\DeclareMathOperator{\im}{Im}
+\DeclareMathOperator{\reg}{Reg}
+\DeclareMathOperator{\odd}{Odd}
+\DeclareMathOperator{\dist}{dist}
+\DeclareMathOperator{\sbd}{sbd}
+\DeclareMathOperator{\capac}{cap}
