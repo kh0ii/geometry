@@ -1,0 +1,13 @@
+\begin{prob}[Korea 1997]
+	Cho $\triangle ABC$ nhọn có $AB \neq AC$, gọi $V$ là giao điểm của phân giác góc $A$ và $BC$ và gọi $D$ là chân đường cao hạ từ $A$ xuống $BC$. Chứng minh rằng nếu $E$ và $F$ lần lượt là giao của đường tròn ngoại tiếp $\triangle AVD$ với $AC$ và $AB$ thì $AD, BE, CF$ đồng quy.
+\end{prob}
+
+\begin{center}
+\includesvg{s10}
+\end{center}
+
+Có $BF.BA = BD.BV \Rightarrow \frac{BD}{BF} = \frac{BA}{BV}$. Tương tự ta có $\frac{CD}{CE} = \frac{CA}{CV}$. Mà $\frac{BA}{BV} = \frac{CA}{CV}$ do $AV$ là phân giác $\angle BAC$ nên $\frac{BD}{BF} = \frac{CD}{CE} \Rightarrow \frac{BD}{BF}.\frac{CE}{CD} = 1$ (1).
+
+$\angle AFV = \angle ADV = 90 \degree,\ \angle AEV = 180 \degree - \angle ADV = 90 \degree \Rightarrow \angle AFV = \angle AEV$. Lại có $\angle FAV = \angle EAV \Rightarrow \triangle AFV = \triangle AEV \ (ch.gn)$ nên $AF = AE \Rightarrow \frac{AF}{AE} = 1$ (2).
+
+Từ (1) và (2) suy ra $\frac{BD}{CD}.\frac{CE}{AE}.\frac{AF}{BF} = 1$ nên theo \textbf{Định lý Ceva} thì $AD, BE, CF$ đồng quy.
